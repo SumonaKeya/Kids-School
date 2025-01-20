@@ -188,16 +188,15 @@ align-items: center;
     margin-top: 80px;
     margin-bottom: 60px;
 }
+
 /* Stories */
-.stories{
-    margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.stories-container{
+   .stories-container{
     display: grid;
-    /* grid-template-columns: repeat(2,1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 300px auto auto; */
+
+
+   } 
+   .first-story{
+    grid-row: 1/span 2;
+   }
