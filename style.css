@@ -5,26 +5,41 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
-.nav, .nav-logo{
+.nav, .nav-logo, .nav-menu li{
  display: flex;
  align-items: center;
- justify-content: center;
+ justify-content: space-around;
 }
 .nav{
-    
+    margin: 0 auto;
+    padding: auto;
 }
 .nav-logo{
 
 }
 .logo-img{
-
+ width: 62px;
+ height: 62px;
+ gap: 11px;
 }
 .logo-title{
-
+    width: 32px;
+    height: 32px;
+    margin-bottom: 40px;
+    font-size: large;
 }
 .nav-menu{
-
+  list-style: none;
+  font-weight: 700;
+  font-size: large;
 }
 .nav-btn{
-
+  width: 100px;
+  height: 20px;
+  /* border: 1px solid orange; */
+  text-align: center;
+  border-radius: 12px;
+  padding:10px ;
+  background: rgb(254, 163, 1);
 }
+
