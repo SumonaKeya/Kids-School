@@ -4,6 +4,10 @@
     padding: 0; */
     font-family: "Quicksand", serif;
 }
+body{
+    margin-left:-20px;
+    margin-right:-40px;
+}
 section{
     margin-top:30px;
     margin-bottom:50px;
@@ -18,7 +22,7 @@ section{
     font-weight: 700;
     color :rgb(0, 0, 0);
   }
-.nav, .nav-logo, .nav-menu li,.empower,.stories-container{
+.nav, .nav-logo, .nav-menu li,.empower,.stories-container,.foot-logo{
  display: flex;
  align-items: center;
  justify-content: space-around;
@@ -307,4 +311,91 @@ text-align: left;
   }
   .right-top{
     margin-left: -100px;
+  }
+
+  /* Footer */
+  .footer{
+    background: rgb(1, 172, 253);
+    width: 100%;
+    height:auto;
+    margin-top: -100px;
+  }
+  .foot-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot-logo{
+   margin-bottom: 30px;
+  }
+  .foot-icon{
+width: 82.9px;
+height: 81.65px;
+left: 141px;
+right: 75.81px;
+top: 2695px;
+bottom: -2695px;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 60px;
+  }
+  .foot-left{
+ width:30%;
+  }
+  .foot-txt{
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: -150px;
+  }
+  .foot-para{
+    color: rgb(255, 255, 255);
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 95px;
+  }
+
+  .foot-middle{
+    width: 30%;
+    text-align: center;
+    margin-left:  120px;
+    margin-right: 30px;
+  }
+  .foot-li {
+    list-style: none;
+  }
+  .foot-about{
+ list-style: none;
+ color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .foot-bar{
+    list-style: none;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .foot-right{
+    width: 30%;
+    margin-left: -250px;
+    margin-right: 100px;
   }
