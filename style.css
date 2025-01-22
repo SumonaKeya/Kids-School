@@ -514,12 +514,12 @@ margin-right: -30px;
 .empower-para span {
      display: block; 
 }
-.navy-bt , .extra{
+/* .navy-bt{
     display: block; 
     visibility:visible;
-}  
+}   */
 
- .navy-bt{
+ /* .navy-bt{
     margin-top: 5px; 
     background: rgb(17, 17, 17);
     color: rgb(255, 255, 255);
@@ -530,7 +530,7 @@ margin-right: -30px;
     border-radius: 12px;
     padding:10px ;
     background: rgb(254, 163, 1);
-} 
+}  */
 /* ///////////////////////////////////////// */
 .standard{
    margin-top: 270px;
